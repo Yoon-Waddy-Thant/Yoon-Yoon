@@ -1,6 +1,6 @@
 'use strict';
 const PAGE_ACCESS_TOKEN = process.env.PAGE_ACCESS_TOKEN;
-const APP_URL = "https://fbstarter.herokuapp.com";
+const APP_URL = "https://yoonpj.herokuapp.com/";
 
 //new text
 
@@ -950,7 +950,7 @@ function webviewTest(sender_psid){
               {
                 "type": "web_url",
                 "title": "webview",
-                "url":"https://fbstarter.herokuapp.com/webview/"+sender_psid,
+                "url":"https://yoonpj.herokuapp.com/webview/"+sender_psid,
                  "webview_height_ratio": "full",
                 "messenger_extensions": true,          
               },
@@ -1253,7 +1253,7 @@ FUNCTION TO ADD WHITELIST DOMAIN
 const whitelistDomains = (res) => {
   var messageData = {
           "whitelisted_domains": [
-             "https://fbstarter.herokuapp.com" , 
+             "https://yoonpj.herokuapp.com/" , 
              "https://herokuapp.com" ,
              'https://blife-messgerbot.herokuapp.com'                          
           ]               
